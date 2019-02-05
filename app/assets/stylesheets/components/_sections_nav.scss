@@ -1,0 +1,31 @@
+.section-links{
+    display:flex;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+.sections-nav{
+    border-bottom: 1px solid $light-gray;
+}
+
+.section-links a{
+    margin: 0 5px;
+    font-size: 13px;
+    font-family: $sans-serif;
+}
+
+
+
+.section-links a:hover{
+    background-color: $light-gray;
+    text-decoration: none;
+}
+
+.section-links li:last-child a:hover{
+    text-decoration: underline;
+    background: transparent;
+}
+
+
+
